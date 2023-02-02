@@ -1,0 +1,5 @@
+Vocês deverão implementar o CRUD na tabela northwind.orders. Para as operações INSERT e UPDATE, vocês devem validar as entradas nos atributos customerid e employeeid. Ou seja, os valores inseridos e/ou atualizados devem existir no banco. Para a operação DELETE, vocês devem apagar também todos os registros na tabela northwind.order_details relativos àquele pedido. A função INSERT deve receber um objeto do tipo pedido (orders) e a função CONSULTA deve retornar um objeto do tipo pedido (orders).
+
+O projeto deve seguir o MVC e ter toda parte de acesso ao banco modularizada (no meu projeto era o módulo config).
+
+A entrega deverá ser os arquivos .py
